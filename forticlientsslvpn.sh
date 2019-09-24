@@ -9,9 +9,9 @@
 FORTICLIENT_PATH="$PWD/forticlientsslvpn/64bit/forticlientsslvpn_cli"
 
 # VPN Credentials
-VPN_HOST=$FORTI_VPN_HOST
-VPN_USER=$FORTI_VPN_USER
-VPN_PASS=$FORTI_VPN_PASS
+VPN_HOST=$1
+VPN_USER=$2
+VPN_PASS=$3
 
 # --------------------------------------------
 
